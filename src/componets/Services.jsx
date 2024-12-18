@@ -56,20 +56,18 @@ export default function Services() {
     return (
         <Box sx={{ bgcolor: "#0a101e" }}>
             <Container>
-
-                <Box sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', textAlign: 'center' }}>
+         <Box sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', textAlign: 'center', position: 'relative' }}>
                     <Box sx={{ position: 'relative' }}>
                         <Typography variant="h3" sx={{ color: '#a9adb8', fontSize: '90px', fontWeight: 700, textTransform: 'uppercase', pb: 2, opacity: .04 }}>
                             Services
                         </Typography>
                     </Box>
-                    <Box sx={{ position: 'absolute', display: 'flex', justifyContent: 'center', alignItems: 'center', textAlign: 'center', flexDirection: 'column' }}>
-                        <Typography sx={{ fontSize: '24px', color: '#FEC544' }}>SERVICES</Typography>
+                    <Box sx={{ position: 'absolute', display: 'flex', justifyContent: 'center', alignItems: 'center', textAlign: 'center', flexDirection: 'column', top: '10px' }}>
+                        <Typography sx={{ fontSize: '24px', color: '#FEC544',textTransform:'uppercase' }}>services</Typography>
                         <Box sx={{ width: '180px', height: '1px', bgcolor: '#FEC544', marginTop: '10px' }}></Box>
                     </Box>
-
                 </Box>
-                
+
 
                 <Grid container spacing={2}>
                     {cardData.map((card) => (
