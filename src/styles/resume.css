@@ -1,0 +1,82 @@
+.resume_container {
+  
+  width: 100%;
+  background-color: #070d1b;
+  padding-top: 60px;
+}
+
+/* .sikll_container div {
+  padding-top: 200px;
+} */
+
+.resume_title {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  position: relative;
+}
+.resume_mainConatinet h3 {
+  color: #111624;
+  font-size: 90px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding-bottom: 2px;
+  opacity: 0.4;
+}
+
+.resume_subtitleContaintent {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  top: 17px;
+}
+
+.resume_subtitleContaintent p {
+  font-size: 24px;
+  color: #fec544;
+  text-transform: uppercase;
+}
+
+.resume_container_parentdiv {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  width: 170px;
+  background-color: #3f4551;
+}
+
+.resume_container_parentdiv div {
+  width: 70px;
+  height: 2px;
+  background-color: #fec544;
+}
+
+
+
+
+
+.ExperienceandEducationContainer{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin: 0px 310px 0px 310px;
+}
+
+.resumeExperience, .resumeEucation {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+   align-items:center;
+  gap: 30px;
+  color: #FDFEFF;
+}
+
+
+
+
